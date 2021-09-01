@@ -52,6 +52,12 @@
                         </goals>
                     </execution>
                     <execution>
+                        <id>report</id>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                    <execution>
                         <id>check</id>
                         <goals>
                             <goal>check</goal>
@@ -67,7 +73,7 @@
                                     <limit>
                                         <counter>BRANCH</counter>
                                         <value>COVEREDRATIO</value>
-                                        <minimum>90%</minimum>
+                                        <minimum>100%</minimum>
                                     </limit>
                                 </limits>
                             </rule>
